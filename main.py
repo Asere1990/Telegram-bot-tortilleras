@@ -33,7 +33,7 @@ def enviar_bienvenida(message):
 def responder_callback(call):
     bot.answer_callback_query(
         callback_query_id=call.id,
-        text="𝐏𝐫𝐞𝐬𝐢𝐨𝐧𝐞 𝐞𝐥 𝐛𝐨𝐭𝐨́𝐧 𝐃𝐄𝐒𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐑 𝐲 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐞 𝐞𝐥 𝐞𝐧𝐥𝐚𝐜𝐞 𝐜𝐨𝐧 𝟓 𝐚𝐦𝐢𝐠𝐨𝐬 𝐝𝐞 𝗪𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐛𝐥𝐨𝐪𝐮𝐞𝐚𝐫 𝐞𝐥 𝐜𝐚𝐧𝐚𝐥 𝐓𝐎𝐑𝐓𝐈𝐋𝐋𝐄𝐑𝐀𝐒.",
+        text="𝐏𝐫𝐞𝐬𝐢𝐨𝐧𝐞 𝐞𝐥 𝐛𝐨𝐭𝐨́𝐧 𝐃𝐄𝐒𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐑 𝐲 𝐬𝐞𝐥𝐞𝐜𝐜𝐢𝐨𝐧𝐞 𝟓 𝐚𝐦𝐢𝐠𝐨𝐬 𝐝𝐞 𝗪𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐛𝐥𝐨𝐪𝐮𝐞𝐚𝐫 𝐞𝐥 𝐜𝐚𝐧𝐚𝐥 𝐓𝐎𝐑𝐓𝐈𝐋𝐋𝐄𝐑𝐀𝐒.",
         show_alert=True
     )
 
