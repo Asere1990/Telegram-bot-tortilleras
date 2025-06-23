@@ -7,15 +7,15 @@ TOKEN = os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
 # Imagen y enlace del botón
-IMAGE_URL = 'https://i.postimg.cc/Y9PWK0q4/photo-output.jpg'
-BOTON_URL = 'https://api.whatsapp.com/send?text=https%3A%2F%2Ft.me%2Ftortillerass'
+IMAGE_URL = 'https://i.postimg.cc/v8xZPMkN/IMG-8499.jpg'
+BOTON_URL = 'https://tinyurl.com/TORTILLERAS'
 
 # Crear la botonera
 def crear_botonera():
     markup = InlineKeyboardMarkup(row_width=1)
     markup.add(
-        InlineKeyboardButton("🔗 Compartir en WhatsApp", url=BOTON_URL),
-        InlineKeyboardButton("❓ ¿Cómo funciona?", callback_data='ayuda')
+        InlineKeyboardButton("🔐𝐃𝐄𝐒𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐑🔐", url=BOTON_URL),
+        InlineKeyboardButton("¿𝐂𝐨́𝐦𝐨 𝐝𝐞𝐬𝐛𝐥𝐨𝐪𝐮𝐞𝐚𝐫?", callback_data='ayuda')
     )
     return markup
 
@@ -25,7 +25,6 @@ def enviar_bienvenida(message):
     bot.send_photo(
         chat_id=message.chat.id,
         photo=IMAGE_URL,
-        caption="¡Hola! Bienvenido al bot de tortillas 🌮",
         reply_markup=crear_botonera()
     )
 
