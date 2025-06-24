@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 
 # Imagen y enlace del botón
 IMAGE_URL = 'https://i.postimg.cc/v8xZPMkN/IMG-8499.jpg'
-BOTON_URL = 'https://tinyurl.com/TORTILLERAS'
+BOTON_URL = 'https://t.me/share/url?url=https://t.me/tortillerass'
 
 # Crear la botonera
 def crear_botonera():
@@ -33,7 +33,7 @@ def enviar_bienvenida(message):
 def responder_callback(call):
     bot.answer_callback_query(
         callback_query_id=call.id,
-        text="𝐏𝐫𝐞𝐬𝐢𝐨𝐧𝐞 𝐞𝐥 𝐛𝐨𝐭𝐨́𝐧 𝐃𝐄𝐒𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐑 𝐲 𝐬𝐞𝐥𝐞𝐜𝐜𝐢𝐨𝐧𝐞 𝟓 𝐚𝐦𝐢𝐠𝐨𝐬 𝐝𝐞 𝗪𝐡𝐚𝐭𝐬𝐀𝐩𝐩 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐛𝐥𝐨𝐪𝐮𝐞𝐚𝐫 𝐞𝐥 𝐜𝐚𝐧𝐚𝐥 𝐓𝐎𝐑𝐓𝐈𝐋𝐋𝐄𝐑𝐀𝐒.",
+        text="𝐏𝐫𝐞𝐬𝐢𝐨𝐧𝐞 𝐞𝐥 𝐛𝐨𝐭𝐨́𝐧 𝐃𝐄𝐒𝐁𝐋𝐎𝐐𝐔𝐄𝐀𝐑 𝐲 𝐬𝐞𝐥𝐞𝐜𝐜𝐢𝐨𝐧𝐞 𝟓 𝐠𝐫𝐚𝐧𝐝𝐞𝐬 𝐠𝐫𝐮𝐩𝐨𝐬 𝐩𝐚𝐫𝐚 𝐝𝐞𝐬𝐛𝐥𝐨𝐪𝐮𝐞𝐚𝐫 𝐞𝐥 𝐜𝐚𝐧𝐚𝐥 𝐓𝐎𝐑𝐓𝐈𝐋𝐋𝐄𝐑𝐀𝐒.",
         show_alert=True
     )
 
